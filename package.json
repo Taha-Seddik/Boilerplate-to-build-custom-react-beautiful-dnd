@@ -1,6 +1,5 @@
 {
   "_from": "react-beautiful-dnd@^13.0.0",
-  "_id": "react-beautiful-dnd@13.0.0",
   "_inBundle": false,
   "_integrity": "sha512-87It8sN0ineoC3nBW0SbQuTFXM6bUqM62uJGY4BtTf0yzPl8/3+bHMWkgIe0Z6m8e+gJgjWxefGRVfpE3VcdEg==",
   "_location": "/react-beautiful-dnd",
@@ -22,14 +21,10 @@
   "_shasum": "f70cc8ff82b84bc718f8af157c9f95757a6c3b40",
   "_spec": "react-beautiful-dnd@^13.0.0",
   "_where": "C:\\Users\\tahas\\OneDrive\\Bureau\\Backend\\Statsh\\Statsh.Frontend_POC",
-  "author": {
-    "name": "Alex Reardon",
-    "email": "areardon@atlassian.com"
-  },
+  "author": "Alex Reardon <areardon@atlassian.com>",
   "bugs": {
     "url": "https://github.com/atlassian/react-beautiful-dnd/issues"
   },
-  "bundleDependencies": false,
   "config": {
     "prettier_target": "*.{js,jsx,md,json} src/**/*.{js,jsx,md,json} test/**/*.{js,jsx,md,json} docs/**/*.{js,jsx,md,json} stories/**/*.{js,jsx,md,json} cypress/**/*.{js,jsx,md,json}"
   },
@@ -40,6 +35,7 @@
     "raf-schd": "^4.0.2",
     "react-redux": "^7.1.1",
     "redux": "^4.0.4",
+    "rollup-plugin-flow-entry": "^0.3.4",
     "use-memo-one": "^1.1.1"
   },
   "deprecated": false,
@@ -47,12 +43,12 @@
   "devDependencies": {
     "@atlaskit/css-reset": "^5.0.9",
     "@atlaskit/theme": "^9.5.0",
-    "@babel/core": "^7.8.4",
+    "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/plugin-transform-modules-commonjs": "^7.8.3",
     "@babel/plugin-transform-object-assign": "^7.8.3",
     "@babel/plugin-transform-runtime": "^7.8.3",
-    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-env": "^7.11.5",
     "@babel/preset-flow": "^7.8.3",
     "@babel/preset-react": "^7.8.3",
     "@emotion/babel-preset-css-prop": "^10.0.27",
@@ -103,15 +99,15 @@
     "react-window": "^1.8.5",
     "require-from-string": "^2.0.2",
     "rimraf": "^3.0.1",
-    "rollup": "^1.31.0",
-    "rollup-plugin-babel": "^4.3.3",
+    "rollup": "^1.32.1",
+    "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-json": "^4.0.0",
-    "rollup-plugin-node-resolve": "^5.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-replace": "^2.2.0",
     "rollup-plugin-size-snapshot": "^0.11.0",
     "rollup-plugin-strip": "^1.2.2",
-    "rollup-plugin-terser": "^5.2.0",
+    "rollup-plugin-terser": "^5.3.1",
     "styled-components": "5.0.0",
     "stylelint": "^13.0.0",
     "stylelint-config-prettier": "^8.0.1",
@@ -145,10 +141,10 @@
   "license": "Apache-2.0",
   "main": "dist/react-beautiful-dnd.cjs.js",
   "module": "dist/react-beautiful-dnd.esm.js",
-  "name": "react-beautiful-dnd",
+  "name": "custom-react-beautiful-dnd",
   "peerDependencies": {
-    "react": "^16.8.5",
-    "react-dom": "^16.8.5"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "repository": {
     "type": "git",
@@ -178,5 +174,5 @@
     "validate": "yarn prettier:check && yarn lint:eslint && yarn lint:css && yarn typecheck"
   },
   "sideEffects": false,
-  "version": "13.0.0"
+  "version": "13.0.1"
 }
