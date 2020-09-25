@@ -39,7 +39,7 @@
     "use-memo-one": "^1.1.1"
   },
   "deprecated": false,
-  "description": "Beautiful and accessible drag and drop for lists with React",
+  "description": "Boilerplate to build react-beautiful-dnd project",
   "devDependencies": {
     "@atlaskit/css-reset": "^5.0.9",
     "@atlaskit/theme": "^9.5.0",
@@ -122,7 +122,7 @@
     "/dist",
     "/src"
   ],
-  "homepage": "https://github.com/atlassian/react-beautiful-dnd#readme",
+  "homepage": "https://github.com/ProNoob702/Boilerplate-to-build-custom-react-beautiful-dnd",
   "jest-junit": {
     "output": "test-reports/junit/js-test-results.xml"
   },
@@ -148,7 +148,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atlassian/react-beautiful-dnd.git"
+    "url": "git+https://github.com/ProNoob702/Boilerplate-to-build-custom-react-beautiful-dnd.git"
   },
   "scripts": {
     "build": "yarn build:clean && yarn build:dist && yarn build:flow",
@@ -174,5 +174,5 @@
     "validate": "yarn prettier:check && yarn lint:eslint && yarn lint:css && yarn typecheck"
   },
   "sideEffects": false,
-  "version": "13.0.1"
+  "version": "13.0.6"
 }
